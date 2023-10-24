@@ -1,0 +1,56 @@
+.message{
+  *{
+    // outline: 1px dotted red;
+  }
+  .inner{
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    .btn-wrap{
+      display: flex;
+      gap: 20px;
+    }
+
+    #messageUl{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 80%;
+      height: 400px;
+      overflow-y: auto;
+
+      &::-webkit-scrollbar{
+        background-color: transparent;
+        width: 10px;
+      }
+      &::-webkit-scrollbar-thumb{
+        background-color: #ccc;
+        border-radius: 6px;
+      }
+      li{
+        width: 90%;
+        // background-color: aqua;
+        display: flex;
+        padding: 10px 0;
+        gap: 20px;
+        border-bottom: 1px solid #ccc;
+        margin: 6px 0;
+        
+        &:first-of-type{
+          border-bottom: 2px solid black;
+          margin-bottom: 10px;
+        }
+
+        .email{
+          flex:0 0 200px;
+          overflow: hidden;
+        }
+        .message{
+          flex: 1;
+        }
+      }
+    }
+  }
+}

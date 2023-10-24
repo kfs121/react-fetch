@@ -1,0 +1,11 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{margin: 0;padding: 0;}
+ul, ol{list-style-type: none;}
+a{text-decoration: none; color: inherit;}
+img{display: block;}
+body{font-family: 'Noto Sans KR', sans-serif;}
+
+
+.inner{width: 1200px; margin: 0 auto; background-color: black;}
